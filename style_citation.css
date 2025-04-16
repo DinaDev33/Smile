@@ -1,0 +1,76 @@
+body {
+  background-image: url(pic2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  }
+
+  #container {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:center;
+  margin-top: 200px;
+  height: 100vh; 
+ 
+  
+  }
+
+  h1{
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 1px 2px 5px rgb(80, 47, 4);
+   color: black;
+
+    text-align: center;
+
+  }
+
+  #btn{
+
+    background: transparent;
+    padding:15px 30px;
+    margin:0 1rem;
+    transition:all .5s ease;
+    outline:none;;
+    box-shadow: 2px 4px 3px 4px  rgb(80, 47, 4);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 2px black;
+    margin-top: 30px;
+  }
+  #par{
+    display: none;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  
+   color: white;
+    text-align: center;
+    width: 70%;
+  }
+
+  
+  #par.white{
+    color: rgb(243, 56, 9);
+    text-shadow: 2px 2px 3px rgb(41, 40, 40);
+  }
+  #par.grey{
+    color: rgb(44, 43, 43);
+    text-shadow: 3px 2px 5px rgb(12, 12, 12);
+  }
+
+  
+  @media all and (max-width:500px) {
+h1{
+  font-size: 30px;
+}
+#par{
+  font-size: 25px;
+}
+
+}
+
